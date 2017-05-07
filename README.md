@@ -22,6 +22,9 @@ How to use
    it might take a few (10-15) seconds before the stream works. This is because
    when you start streaming to the server, it needs to generate the first
    segments and the related playlists.
+   
+4. In every other browser just open the following url: `http://localhost:8080/`
+   
 
 
 Links
