@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  nginx-rtmp-hls:
+    build: .
+    #restart: always
+    network_mode: "host"
+    ports:
+      - "1935:1935"
+      - "3348:80"
+     #- "80:80"
